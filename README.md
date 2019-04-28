@@ -31,11 +31,11 @@ You will also see any lint errors in the console.
 
 ```
 
-```bash
+
 
 
 ### `npm run build`
-
+```bash
 Builds the app for production to the `build` folder.<br>
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
@@ -43,3 +43,10 @@ The build is minified and the filenames include the hashes.<br>
 Your app is ready to be deployed!
 ```
 
+## Built With
+```bash
+- react [`^16.8.6`]
+- ES6
+- Bootstrap [`^4.3.1`]
+- axios [`^0.18.0`]
+```
