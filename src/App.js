@@ -29,7 +29,11 @@ class App extends Component {
         });
         this.setState({ male:pet_male.sort(),female:pet_female.sort() });
         
-    })
+    },
+    error => {
+          alert("unexpected error");
+          console.log(error);
+        });
   }
   
   
