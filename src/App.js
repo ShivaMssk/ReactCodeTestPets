@@ -12,8 +12,11 @@ class App extends Component {
       female: []
     }
   };
-
+  
+  // This methods is called  when an instance of a component is being created and inserted into the DOM:
   componentDidMount() {
+
+    // Promise based HTTP client for the browser and node.js
     axios.get(`http://5c92dbfae7b1a00014078e61.mockapi.io/owners`)
       .then(res => {
         const pet_male = [],
